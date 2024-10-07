@@ -9,6 +9,8 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "cozy-client": "^49.1.1",
+    "cozy-ui": "^111.14.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
