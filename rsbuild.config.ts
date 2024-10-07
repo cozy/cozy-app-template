@@ -24,7 +24,7 @@ export default defineConfig({
   },
   source: {
     entry: {
-      index: './src/targets/browser/index.tsx'
+      index: './src/targets/browser/index.jsx'
     }
   },
   tools: {
