@@ -4,10 +4,9 @@
   "version": "1.0.0",
   "scripts": {
     "build": "rsbuild build",
-    "dev": "rsbuild dev --open",
+    "watch": "rsbuild build --watch",
     "format": "prettier --write .",
-    "lint": "eslint .",
-    "preview": "rsbuild preview"
+    "lint": "eslint ."
   },
   "dependencies": {
     "react": "^18.3.1",

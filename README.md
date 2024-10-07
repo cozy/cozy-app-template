@@ -1,11 +1,15 @@
-# Rsbuild Project
+# Cozy App Template
+
+This is a template for building Cozy apps with React and TypeScript.
+
+It uses [Rsbuild](https://github.com/rsbuild/rsbuild) to build the app.
 
 ## Setup
 
 Install the dependencies:
 
 ```bash
-pnpm install
+yarn install
 ```
 
 ## Get Started
@@ -13,17 +17,11 @@ pnpm install
 Start the dev server:
 
 ```bash
-pnpm dev
+yarn watch
 ```
 
 Build the app for production:
 
 ```bash
-pnpm build
-```
-
-Preview the production build locally:
-
-```bash
-pnpm preview
+yarn build
 ```

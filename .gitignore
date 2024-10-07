@@ -3,9 +3,9 @@
 *.local
 *.log*
 
-# Dist
+# Build
 node_modules
-dist/
+build/
 
 # IDE
 .vscode/*
