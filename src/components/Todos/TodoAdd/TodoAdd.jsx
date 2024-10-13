@@ -5,7 +5,7 @@ import useBreakpoints from 'cozy-ui/transpiled/react/providers/Breakpoints'
 import OutlinedInput from 'cozy-ui/transpiled/react/OutlinedInput'
 import Button from 'cozy-ui/transpiled/react/Buttons'
 import InputAdornment from 'cozy-ui/transpiled/react/InputAdornment'
-import { useI18n } from 'cozy-ui/transpiled/react/I18n'
+import { useI18n } from 'cozy-ui/transpiled/react/providers/I18n'
 import Typography from 'cozy-ui/transpiled/react/Typography'
 import Box from 'cozy-ui/transpiled/react/Box'
 

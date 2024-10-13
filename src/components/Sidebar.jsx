@@ -2,7 +2,7 @@ import React from 'react'
 import { NavLink as RouterLink } from 'react-router-dom'
 import cx from 'classnames'
 
-import { useI18n } from 'cozy-ui/transpiled/react/I18n'
+import { useI18n } from 'cozy-ui/transpiled/react/providers/I18n'
 import UISidebar from 'cozy-ui/transpiled/react/Sidebar'
 import Nav, {
   NavItem,

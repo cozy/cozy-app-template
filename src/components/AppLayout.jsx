@@ -5,7 +5,7 @@ import cx from 'classnames'
 
 import { Layout, Main, Content } from 'cozy-ui/transpiled/react/Layout'
 import Sprite from 'cozy-ui/transpiled/react/Icon/Sprite'
-import { useI18n } from 'cozy-ui/transpiled/react/I18n'
+import { useI18n } from 'cozy-ui/transpiled/react/providers/I18n'
 import useBreakpoints from 'cozy-ui/transpiled/react/providers/Breakpoints'
 import MuiCozyTheme from 'cozy-ui/transpiled/react/MuiCozyTheme'
 import BarTitle from 'cozy-ui/transpiled/react/BarTitle'

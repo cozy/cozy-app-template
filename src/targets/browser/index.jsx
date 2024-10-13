@@ -8,7 +8,7 @@ import {
   StylesProvider,
   createGenerateClassName
 } from 'cozy-ui/transpiled/react/styles'
-import { I18n } from 'cozy-ui/transpiled/react/I18n'
+import { I18n } from 'cozy-ui/transpiled/react/providers/I18n'
 import MuiCozyTheme from 'cozy-ui/transpiled/react/MuiCozyTheme'
 import { BreakpointsProvider } from 'cozy-ui/transpiled/react/providers/Breakpoints'
 import { CozyProvider } from 'cozy-client'
