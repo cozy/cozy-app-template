@@ -5,7 +5,6 @@ import cx from 'classnames'
 
 import { Layout, Main, Content } from 'cozy-ui/transpiled/react/Layout'
 import Sprite from 'cozy-ui/transpiled/react/Icon/Sprite'
-import Alerter from 'cozy-ui/transpiled/react/Alerter'
 import { useI18n } from 'cozy-ui/transpiled/react/I18n'
 import useBreakpoints from 'cozy-ui/transpiled/react/providers/Breakpoints'
 import MuiCozyTheme from 'cozy-ui/transpiled/react/MuiCozyTheme'
@@ -40,7 +39,6 @@ const AppLayout = () => {
           <Outlet />
         </Content>
       </Main>
-      <Alerter t={t} />
       <Sprite />
     </Layout>
   )
