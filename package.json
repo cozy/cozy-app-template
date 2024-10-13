@@ -1,5 +1,5 @@
 {
-  "name": "rsbuild-react-ts",
+  "name": "cozy-app-template",
   "private": true,
   "version": "1.0.0",
   "scripts": {
@@ -9,6 +9,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "cozy-bar": "15.0.1",
     "cozy-client": "^49.1.1",
     "cozy-device-helper": "^3.1.0",
     "cozy-flags": "^4.0.0",

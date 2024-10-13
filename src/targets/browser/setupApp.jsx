@@ -2,19 +2,20 @@ import memoize from 'lodash/memoize'
 
 import { initTranslation } from 'cozy-ui/transpiled/react/providers/I18n'
 
-import { getClient } from 'src/utils/client'
-import { getValues, initBar } from 'src/utils/bar'
+import { makeClient } from 'src/targets/browser/makeClient'
+
+const getDataOrDefault = (data, defaultData) =>
+  /^\{\{\..*\}\}$/.test(data) ? defaultData : data
 
 /**
  * Memoize this function in its own file so that it is correctly memoized
  */
 const setupApp = memoize(() => {
   const container = document.querySelector('[role=application]')
-  const { lang, appName } = getValues(JSON.parse(container.dataset.cozy))
+  const locale = JSON.parse(container.dataset.cozy)?.locale
+  const lang = getDataOrDefault(locale, 'en')
   const polyglot = initTranslation(lang, lang => require(`src/locales/${lang}`))
-  const client = getClient()
-
-  initBar({ client, container, lang, appName })
+  const client = makeClient()
 
   return { container, client, lang, polyglot }
 })
