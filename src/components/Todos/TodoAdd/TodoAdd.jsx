@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 import { useClient } from 'cozy-client'
-import useBreakpoints from 'cozy-ui/transpiled/react/hooks/useBreakpoints'
+import useBreakpoints from 'cozy-ui/transpiled/react/providers/Breakpoints'
 import OutlinedInput from 'cozy-ui/transpiled/react/OutlinedInput'
 import Button from 'cozy-ui/transpiled/react/Buttons'
 import InputAdornment from 'cozy-ui/transpiled/react/InputAdornment'

@@ -10,7 +10,7 @@ import {
 } from 'cozy-ui/transpiled/react/styles'
 import { I18n } from 'cozy-ui/transpiled/react/I18n'
 import MuiCozyTheme from 'cozy-ui/transpiled/react/MuiCozyTheme'
-import { BreakpointsProvider } from 'cozy-ui/transpiled/react/hooks/useBreakpoints'
+import { BreakpointsProvider } from 'cozy-ui/transpiled/react/providers/Breakpoints'
 import { CozyProvider } from 'cozy-client'
 
 import setupApp from 'src/targets/browser/setupApp'
