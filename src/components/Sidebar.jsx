@@ -1,17 +1,17 @@
 import React from 'react'
 import { NavLink as RouterLink } from 'react-router-dom'
-import cx from 'classnames'
 
-import { useI18n } from 'cozy-ui/transpiled/react/providers/I18n'
-import UISidebar from 'cozy-ui/transpiled/react/Sidebar'
+import CategoriesIcon from 'cozy-ui/transpiled/react/Icons/Categories'
 import Nav, {
   NavItem,
   NavIcon,
   NavText,
-  NavLink
+  genNavLink
 } from 'cozy-ui/transpiled/react/Nav'
+import UISidebar from 'cozy-ui/transpiled/react/Sidebar'
+import { useI18n } from 'cozy-ui/transpiled/react/providers/I18n'
 
-import BulletPoint from 'src/assets/icons/icon-bullet-point.svg'
+const NavLink = genNavLink(RouterLink)
 
 const Sidebar = () => {
   const { t } = useI18n()
@@ -20,43 +20,16 @@ const Sidebar = () => {
     <UISidebar>
       <Nav>
         <NavItem>
-          <RouterLink
-            to="/todos"
-            className={({ isActive }) =>
-              cx(NavLink.className, {
-                [NavLink.activeClassName]: isActive
-              })
-            }
-          >
-            <NavIcon icon={BulletPoint} />
-            <NavText>{t('nav.todos')}</NavText>
-          </RouterLink>
+          <NavLink to="/welcome">
+            <NavIcon icon={CategoriesIcon} />
+            <NavText>{t('nav.welcome')}</NavText>
+          </NavLink>
         </NavItem>
         <NavItem>
-          <RouterLink
-            to="/viewhello1"
-            className={({ isActive }) =>
-              cx(NavLink.className, {
-                [NavLink.activeClassName]: isActive
-              })
-            }
-          >
-            <NavIcon icon={BulletPoint} />
-            <NavText>{t('nav.hello_nav_2')}</NavText>
-          </RouterLink>
-        </NavItem>
-        <NavItem>
-          <RouterLink
-            to="/viewhello2"
-            className={({ isActive }) =>
-              cx(NavLink.className, {
-                [NavLink.activeClassName]: isActive
-              })
-            }
-          >
-            <NavIcon icon={BulletPoint} />
-            <NavText>{t('nav.hello_nav_3')}</NavText>
-          </RouterLink>
+          <NavLink to="/contacts">
+            <NavIcon icon={CategoriesIcon} />
+            <NavText>{t('nav.contacts')}</NavText>
+          </NavLink>
         </NavItem>
       </Nav>
     </UISidebar>

@@ -1,27 +1,11 @@
-# Cozy App Template
+# cozy-app-template
 
-This is a template for building Cozy apps with React and TypeScript.
+## Install
 
-It uses [Rsbuild](https://github.com/rsbuild/rsbuild) to build the app.
+You can then clone the app repository and install dependencies:
 
-## Setup
-
-Install the dependencies:
-
-```bash
-yarn install
-```
-
-## Get Started
-
-Start the dev server:
-
-```bash
-yarn watch
-```
-
-Build the app for production:
-
-```bash
-yarn build
+```sh
+$ git clone https://github.com/cozy/cozy-app-template.git
+$ cd cozy-app-template
+$ yarn install
 ```

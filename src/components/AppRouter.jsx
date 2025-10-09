@@ -1,29 +1,22 @@
 import React from 'react'
-import {
-  Route,
-  Navigate,
-  RouterProvider,
-  createHashRouter,
-  createRoutesFromElements
-} from 'react-router-dom'
+import { HashRouter, Routes, Route, Navigate } from 'react-router-dom'
 
-import TodoWrapper from 'src/components/Todos/TodoWrapper'
-import Hello1 from 'src/components/HelloViews/Hello1'
-import Hello2 from 'src/components/HelloViews/Hello2'
-import AppLayout from 'src/components/AppLayout'
+import AppLayout from '@/components/AppLayout'
+import { Contacts } from '@/components/Views/Contacts'
+import { Welcome } from '@/components/Views/Welcome'
 
 const AppRouter = () => {
-  const routes = (
-    <Route path="/" element={<AppLayout />}>
-      <Route path="todos" element={<TodoWrapper />} />
-      <Route path="viewhello1" element={<Hello1 />} />
-      <Route path="viewhello2" element={<Hello2 />} />
-      <Route path="*" element={<Navigate to="/todos" replace />} />
-    </Route>
+  return (
+    <HashRouter>
+      <Routes>
+        <Route element={<AppLayout />}>
+          <Route path="/welcome" element={<Welcome />}></Route>
+          <Route path="/contacts" element={<Contacts />}></Route>
+          <Route path="*" element={<Navigate replace to="/welcome" />} />
+        </Route>
+      </Routes>
+    </HashRouter>
   )
-  const router = createHashRouter(createRoutesFromElements(routes))
-
-  return <RouterProvider router={router} />
 }
 
 export default AppRouter
