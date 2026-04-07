@@ -9,7 +9,7 @@ import Nav, {
   genNavLink
 } from 'cozy-ui/transpiled/react/Nav'
 import UISidebar from 'cozy-ui/transpiled/react/Sidebar'
-import { useI18n } from 'cozy-ui/transpiled/react/providers/I18n'
+import { useI18n } from 'twake-i18n'
 
 const NavLink = genNavLink(RouterLink)
 
