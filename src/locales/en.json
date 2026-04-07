@@ -1,6 +1,7 @@
 {
   "nav": {
     "welcome": "Bienvenue",
-    "contacts": "Contacts"
+    "contacts": "Contacts",
+    "intents": "Intents"
   }
 }

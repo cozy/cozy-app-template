@@ -31,6 +31,12 @@ const Sidebar = () => {
             <NavText>{t('nav.contacts')}</NavText>
           </NavLink>
         </NavItem>
+        <NavItem>
+          <NavLink to="/intents">
+            <NavIcon icon={CategoriesIcon} />
+            <NavText>{t('nav.intents')}</NavText>
+          </NavLink>
+        </NavItem>
       </Nav>
     </UISidebar>
   )
