@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 import CozyClient from 'cozy-client'
 import flag from 'cozy-flags'
 import { RealtimePlugin } from 'cozy-realtime'
-import { initTranslation } from 'cozy-ui/transpiled/react/providers/I18n'
+import { initTranslation } from 'twake-i18n'
 
 import manifest from '../../../manifest.webapp'
 
