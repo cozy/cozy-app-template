@@ -33,7 +33,7 @@
     "@testing-library/react-hooks": "8.0.1",
     "babel-preset-cozy-app": "^2.8.1",
     "core-js": "3.50.0",
-    "cozy-tsconfig": "^1.8.1",
+    "cozy-tsconfig": "^2.0.0",
     "eslint": "10.11.0",
     "eslint-config-cozy-app": "^7.1.0",
     "prop-types": "15.8.1",
