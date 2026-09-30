@@ -31,7 +31,7 @@
     "@testing-library/jest-dom": "5.16.5",
     "@testing-library/react": "13.4.0",
     "@testing-library/react-hooks": "8.0.1",
-    "babel-preset-cozy-app": "^2.8.1",
+    "babel-preset-cozy-app": "^2.8.4",
     "core-js": "3.50.0",
     "cozy-tsconfig": "^2.0.0",
     "eslint": "10.11.0",
