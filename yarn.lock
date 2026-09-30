@@ -4296,10 +4296,10 @@ babel-plugin-polyfill-regenerator@^0.3.0:
   dependencies:
     "@babel/helper-define-polyfill-provider" "^0.3.0"
 
-babel-preset-cozy-app@^2.8.1:
-  version "2.8.1"
-  resolved "https://registry.yarnpkg.com/babel-preset-cozy-app/-/babel-preset-cozy-app-2.8.1.tgz#6c14bcdfee86195044907e35fb524c4fbdd66f65"
-  integrity sha512-ymg/4wfntdxJrxlp25edVtg33jpcpipiZtUhmJL/YK0cON9wLBmq2I+dVAaqMG2VFQjViXnegxXLew59uU8dxg==
+babel-preset-cozy-app@^2.8.4:
+  version "2.8.4"
+  resolved "https://registry.yarnpkg.com/babel-preset-cozy-app/-/babel-preset-cozy-app-2.8.4.tgz#a2846ca0af9777904408c68252756732299e3cb4"
+  integrity sha512-vdlsmz6ZlwWVath9gXno2MxFBI6uO/LQTW6Bis8cepcV1KzhpBv05N7RNyenZsgYZwhVLY4AyW9w12geOJm1/g==
   dependencies:
     "@babel/core" "7.16.12"
     "@babel/eslint-parser" "^7.16.3"
@@ -4311,7 +4311,7 @@ babel-preset-cozy-app@^2.8.1:
     "@babel/preset-react" "^7.16.0"
     "@babel/preset-typescript" "^7.16.0"
     "@babel/runtime" "^7.16.3"
-    browserslist-config-cozy "^0.11.1"
+    browserslist-config-cozy "^0.11.3"
     lodash "^4.17.21"
     typescript "5.5.2"
 
@@ -4539,10 +4539,10 @@ browserify-zlib@^0.2.0:
   dependencies:
     pako "~1.0.5"
 
-browserslist-config-cozy@^0.11.1:
-  version "0.11.1"
-  resolved "https://registry.yarnpkg.com/browserslist-config-cozy/-/browserslist-config-cozy-0.11.1.tgz#c0fd45c5e95f3f110facc7e7721f875103ac7364"
-  integrity sha512-w0YdkvnZtJhO9Cb5z7t0Fc+kU0JZiEUFCJkdJpxktJAU580NHuRIEw0UdV7HJuVnLfBYmPx4Ew4g/fUi5VXL3A==
+browserslist-config-cozy@^0.11.3:
+  version "0.11.3"
+  resolved "https://registry.yarnpkg.com/browserslist-config-cozy/-/browserslist-config-cozy-0.11.3.tgz#1ed5ea2a0a1e5967c40f04369a22ce55ce0b718a"
+  integrity sha512-0qxEW/KoJmfy5knAzAOIFNgVEN5v4+urU9np96MeIsPPYqAtyoyCQS5gQ0rcy0imxF0PYtoAsm0rDAhP5JZV5w==
 
 browserslist-load-config@^1.0.2:
   version "1.0.3"
