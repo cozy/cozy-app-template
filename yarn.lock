@@ -5092,10 +5092,10 @@ cozy-intent@^2.31.1:
     cozy-minilog "^3.10.1"
     post-me "0.4.5"
 
-cozy-interapp@^0.17.1:
-  version "0.17.1"
-  resolved "https://registry.yarnpkg.com/cozy-interapp/-/cozy-interapp-0.17.1.tgz#c17e45d14d1f6f0e2a2b2a9f9316dc822761d063"
-  integrity sha512-o649e0UK2yla07x92a9pB4P1B2tP3LwHC6GMpWGMvkhyTwkZpzHllWBCO4VBmQXHJAKbzWgIBmDeapgw0A/zgQ==
+cozy-interapp@^0.19.0:
+  version "0.19.0"
+  resolved "https://registry.yarnpkg.com/cozy-interapp/-/cozy-interapp-0.19.0.tgz#412e22b1c01816d45d0ca9653f0c39e926f9db76"
+  integrity sha512-jdrK/0ST/NcWHe+cqisKg5NjRKj8XXdKJ90IFAIlhwOrJK26nQ2FR3n/EFTirbZCQZ3uls3hlkz5HPTVrsaePA==
 
 cozy-logger@^1.18.1:
   version "1.18.1"
