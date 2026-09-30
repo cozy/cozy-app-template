@@ -5169,10 +5169,10 @@ cozy-stack-client@^60.37.0:
     mime "^2.4.0"
     qs "^6.7.0"
 
-cozy-tsconfig@^1.8.1:
-  version "1.8.1"
-  resolved "https://registry.yarnpkg.com/cozy-tsconfig/-/cozy-tsconfig-1.8.1.tgz#5f206f4e6e041a4afc6691098264ba630bdeb7e2"
-  integrity sha512-/9QBxK8Tc12O2ojuyRpSMjPpXpqldVvzfNB1+/nPD+IkIBkU+mqxpHYJwKWjNYHGraCSy69mIwt9J3aiaJdz9w==
+cozy-tsconfig@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/cozy-tsconfig/-/cozy-tsconfig-2.0.0.tgz#53608787adb5f5119fdb97814173c4d2b6cba1ed"
+  integrity sha512-eZlYjaMm1k5ImR252hk14d6NkIT51b2U2OwJw18QFH76tpBy5uTDdPs12ApeEh+3z6UPQNmyLxbymWs5Cemwjw==
 
 cozy-ui-plus@^13.0.8:
   version "13.0.8"
