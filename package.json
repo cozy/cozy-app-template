@@ -56,7 +56,7 @@
     "cozy-realtime": "^5.9.1",
     "cozy-search": "^2.8.0",
     "cozy-ui": "^142.1.0",
-    "cozy-ui-plus": "^7.0.0",
+    "cozy-ui-plus": "^13.0.8",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-router-dom": "6.30.3",
