@@ -11,7 +11,7 @@
     "analyze": "RSDOCTOR=true yarn build",
     "lint": "yarn lint:js && yarn lint:styles",
     "lint:js": "eslint '{src,test}/**/*.{js,jsx,ts,tsx}'",
-    "lint:styles": "stylint src/styles --config ./.stylintrc"
+    "lint:styles": "stylint src/styles --config ./node_modules/stylus-config-cozy-app/.stylintrc"
   },
   "repository": {
     "type": "git",
