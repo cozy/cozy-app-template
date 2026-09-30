@@ -23,7 +23,7 @@ const makeClient = container => {
     uri: cozyUrl,
     token: data.token,
     appMetadata: {
-      slug: manifest.name,
+      slug: manifest.slug,
       version: manifest.version
     },
     schema,
