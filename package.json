@@ -45,7 +45,7 @@
     "@linagora/twake-icons": "^2.10.0",
     "cozy-bar": "^35.4.11",
     "cozy-client": "^60.37.1",
-    "cozy-dataproxy-lib": "^4.15.0",
+    "cozy-dataproxy-lib": "^4.15.7",
     "cozy-device-helper": "^4.0.3",
     "cozy-flags": "^4.9.1",
     "cozy-intent": "^2.31.1",
