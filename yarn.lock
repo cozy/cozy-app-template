@@ -5128,10 +5128,10 @@ cozy-realtime@^5.9.1:
   dependencies:
     "@cozy/minilog" "^1.0.0"
 
-cozy-search@^0.25.2:
-  version "0.25.2"
-  resolved "https://registry.yarnpkg.com/cozy-search/-/cozy-search-0.25.2.tgz#c8c8195f2c2c8b2a2f2c79b277d1160eba086958"
-  integrity sha512-+i9j9t9PVWRX/Ce7F3IJKRuNihDpDUCGyYKwzGAf+pNUlDw15e0SkldXANNczstqaHxEyeNEwu1ap2nbLXccKA==
+cozy-search@^2.8.0:
+  version "2.8.0"
+  resolved "https://registry.yarnpkg.com/cozy-search/-/cozy-search-2.8.0.tgz#b6c0925a90ab3d44ae2dfc8a3c45638bd6aeca1c"
+  integrity sha512-ZOUaHmMO3rSMIezftfRK1QmiU7e8ztObcGwcuLUIVSe/UKBLMKeHKnjsmnCLDkr1CTSPwiqrjTmUFhG8asmsFQ==
   dependencies:
     "@assistant-ui/react" "^0.12.5"
     classnames "^2.5.1"
