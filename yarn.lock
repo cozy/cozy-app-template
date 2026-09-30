@@ -5028,10 +5028,10 @@ cosmiconfig@^8.1.3:
     parse-json "^5.2.0"
     path-type "^4.0.0"
 
-cozy-bar@^33.1.2:
-  version "33.1.2"
-  resolved "https://registry.yarnpkg.com/cozy-bar/-/cozy-bar-33.1.2.tgz#a319d87b004643bc92e26f11e7538de73c638818"
-  integrity sha512-PbMGqoGNefILY8To1ForFruxexfXNOLzWL8zoNjHcmhKbGjugfqxr8fQcIYOcUHO7P7IPzA06R3yzfmiKs3WGg==
+cozy-bar@^35.4.11:
+  version "35.4.11"
+  resolved "https://registry.yarnpkg.com/cozy-bar/-/cozy-bar-35.4.11.tgz#a72ff62f75e17920fc1c7b275da4da42e235c772"
+  integrity sha512-0Zhh0mQ3ziB6lZ+WvbgXJYO1yhd99eW+zX4/tSfyfyL9ocR+L3WL/dxmHDy9Z42lrDnkM+GuuRSiJMqxAoxQww==
   dependencies:
     classnames "^2.5.1"
     lodash.set "^4.3.2"
