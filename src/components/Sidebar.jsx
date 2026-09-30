@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink as RouterLink } from 'react-router-dom'
 
-import CategoriesIcon from 'cozy-ui/transpiled/react/Icons/Categories'
+import { Categories as CategoriesIcon } from '@linagora/twake-icons'
 import Nav, {
   NavItem,
   NavIcon,

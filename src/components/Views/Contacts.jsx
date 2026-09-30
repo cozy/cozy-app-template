@@ -1,9 +1,7 @@
 import React from 'react'
 
+import { Icon, Right, Spinner as SpinnerIcon } from '@linagora/twake-icons'
 import { useQuery } from 'cozy-client'
-import Icon from 'cozy-ui/transpiled/react/Icon'
-import Right from 'cozy-ui/transpiled/react/Icons/Right'
-import SpinnerIcon from 'cozy-ui/transpiled/react/Icons/Spinner'
 import List from 'cozy-ui/transpiled/react/List'
 import ListItem from 'cozy-ui/transpiled/react/ListItem'
 import ListItemIcon from 'cozy-ui/transpiled/react/ListItemIcon'

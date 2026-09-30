@@ -42,6 +42,7 @@
     "typescript": "4.9.5"
   },
   "dependencies": {
+    "@linagora/twake-icons": "^2.10.0",
     "cozy-bar": "^33.1.2",
     "cozy-client": "^60.23.1",
     "cozy-dataproxy-lib": "^4.15.0",
@@ -53,7 +54,7 @@
     "cozy-pouch-link": "^60.23.1",
     "cozy-realtime": "^5.9.1",
     "cozy-search": "^0.25.2",
-    "cozy-ui": "^138.2.0",
+    "cozy-ui": "^142.1.0",
     "cozy-ui-plus": "^7.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
